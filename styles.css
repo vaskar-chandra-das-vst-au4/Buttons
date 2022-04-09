@@ -1,0 +1,66 @@
+.container {
+  border: dotted 3px grey;
+  background-color: bisque;
+  padding: 5px;
+  width: 600px;
+  margin: auto;
+}
+body {
+  padding-top: 33px;
+}
+
+h3 {
+  font-size: xx-large;
+  font-weight: bold;
+  font-family: "Sacramento", cursive;
+}
+p {
+  font-family: "Merriweather Sans", sans-serif;
+}
+
+.btn {
+  padding: 5px;
+  background-color: rgb(248, 248, 248);
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 15px;
+  font-family: "Merriweather Sans", sans-serif;
+}
+button:hover {
+  color: rgb(0, 0, 0);
+  background-color: rgb(247, 206, 179);
+  border: solid 2px black;
+}
+.btn:active {
+  background-color: bisque;
+  color: black;
+}
+
+.fb {
+  padding: 5px;
+  background-color: rgb(248, 248, 248);
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 10px;
+  font-weight: 600;
+  text-decoration: none;
+  font-family: "Merriweather Sans", sans-serif;
+}
+.fb:hover {
+  color: rgb(0, 0, 0);
+  background-color: rgb(247, 206, 179);
+  border: solid 2px black;
+}
+
+/* a:visited{color: burlywood;}  visited link color*/
+
+.fb:active {
+  background-color: bisque;
+  color: black;
+}
+.mail {
+  text-decoration: none;
+}
